@@ -1,0 +1,64 @@
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(29, 117, 169);
+  background-image: url('/assets/images/background-login.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.423);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 60px 40px;
+}
+
+.container form h2 {
+  font-weight: 700;
+}
+
+form button, form input, .form-floating {
+  width: 100%;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(156, 156, 156);
+}
+
+form button:focus, form input:focus, form .form-floating:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+form input:focus {
+  border: 2px solid #458fff;
+}
+
+form button {
+  padding: 13px 0px;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(24, 24, 194), #458fff);
+  border: none;
+}
+
+form button:hover {
+  background: rgba(14, 14, 172, 0.83);
+  transition: all 0.6s ease;
+}
+
+form a {
+  font-size: 13px;
+}
