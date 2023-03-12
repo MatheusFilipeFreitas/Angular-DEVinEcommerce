@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent {
-
+  logout() {
+    localStorage.removeItem('userName');
+    //TODO: navigate to '/'
+  }
 }

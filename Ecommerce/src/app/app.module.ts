@@ -21,7 +21,7 @@ import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [EmailPipePipe],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
