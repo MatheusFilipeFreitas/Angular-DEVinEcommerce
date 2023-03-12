@@ -33,6 +33,10 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('userPassword');
   }
 
+  extractUseName() {
+
+  }
+
   onSubmit() {
     // console.log(this.userEmail);
     // console.log(this.userPassword);

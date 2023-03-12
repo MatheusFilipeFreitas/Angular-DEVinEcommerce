@@ -10,9 +10,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { FullComponent } from './layouts/full/full.component';
 import { WrapperComponent } from './layouts/wrapper/wrapper.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent],
+  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent, EmailPipePipe],
   imports: [
     BrowserModule,
     AppRoutingModule,
