@@ -9,9 +9,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { FullComponent } from './layouts/full/full.component';
 import { WrapperComponent } from './layouts/wrapper/wrapper.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent],
+  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
