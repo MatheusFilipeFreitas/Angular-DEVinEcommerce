@@ -12,9 +12,10 @@ import { WrapperComponent } from './layouts/wrapper/wrapper.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
 import { ListComponent } from './pages/products/list/list.component';
+import { CreateComponent } from './pages/products/create/create.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent, EmailPipePipe, ListComponent],
+  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent, EmailPipePipe, ListComponent, CreateComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

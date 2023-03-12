@@ -4,6 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { FullComponent } from './layouts/full/full.component';
 import { WrapperComponent } from './layouts/wrapper/wrapper.component';
 import { ListComponent } from './pages/products/list/list.component';
+import { CreateComponent } from './pages/products/create/create.component';
 
 const routes: Routes = [
   {
@@ -22,12 +23,16 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
+    path: 'products',
     component: FullComponent,
     children: [
       {
-        path: 'home',
+        path: 'list',
         component: ListComponent
+      },
+      {
+        path: 'add',
+        component: CreateComponent
       }
     ]
   }
